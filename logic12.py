@@ -6,4 +6,4 @@ def main(a):
     Returns:
         True if all digits of a are the same, False otherwise
     """
-    return
+    return a//10==a%10
