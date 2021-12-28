@@ -6,4 +6,4 @@ def main(a):
     Returns:
         True if all digits sum is even, False otherwise
     """
-    return
+    return (a//10+a%10)%2==0
