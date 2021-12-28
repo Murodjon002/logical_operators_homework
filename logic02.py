@@ -7,4 +7,4 @@ def main(a,b):
     Returns:
         True if each of the numbers 'a' and 'a' is positive, False otherwise
     """
-    return a>0 or b>0
+    return a>0 and b>0
