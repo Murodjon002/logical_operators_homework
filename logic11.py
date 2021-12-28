@@ -6,4 +6,4 @@ def main(a):
     Returns:
         True if a is three-digit number, False otherwise
     """
-    return
+    return a>=100 and a<=999
