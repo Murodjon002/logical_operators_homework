@@ -7,4 +7,4 @@ def main(a,b):
     Returns:
         True if each of the numbers 'a' and 'b' is odd, False otherwise
     """
-    return
+    return a%2==0 or b%2==0
