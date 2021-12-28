@@ -6,4 +6,4 @@ def main(a):
     Returns:
         True if all digits of a are in ascending order, False otherwise
     """
-    return (a//10000<a//1000%10) and (a//1000%10<a//100%10) and (a//100%10<a//10%10) and (a//10%10<a%10)
+    return (a//10000>a//1000%10) and (a//1000%10>a//100%10) and (a//100%10>a//10%10) and (a//10%10>a%10)
